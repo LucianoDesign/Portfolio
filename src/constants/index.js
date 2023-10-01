@@ -213,6 +213,7 @@ import {
     },
     {
       name: "Pokewave",
+      link: "https://pi-pokemon-black.vercel.app/",
       description:
       "A Single Page Application that allows users to find any Pokemon by ID or name from the official Pokemon API. You can compare them by stats, filter by types, and even create a new Pokemon.",
       tags: [
@@ -234,6 +235,7 @@ import {
     },
     {
       name: "Guardian of Decks",
+      link: "https://final-project-client-lime.vercel.app/",
       description:
       "A collectible card e-commerce platform where users can add items to their cart, make modifications if necessary, and complete their purchase using Mercado Pago. Afterward, they can access and check the order status. Additionally, users with Admin status can access the dashboard.",      tags: [
         {
