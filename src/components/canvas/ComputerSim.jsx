@@ -39,7 +39,7 @@ const Computer = (props) => {
           >
             <div className="wrapper" onPointerDown={(e) => e.stopPropagation()}>
               <div className="w-full bg-black -z-40 flex items-center justify-center">
-                <img className="w-full h-max" src={alice} />
+                <img className="w-full h-max select-none" src={alice} draggable="false"/>
               </div>
             </div>
           </Html>
