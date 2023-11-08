@@ -1,9 +1,9 @@
 // Misc
 import logo2 from "./logo2.svg"
-import morfeo from "./morfeo.png"
 import alice from "./alice-matrix.jpg"
 import github from "./github.png";
 import menu from "./menu.svg";
+import linkedin from "./linkedin.png"
 import close from "./close.svg";
 //Techs
 import css from "./tech/css.png";
@@ -27,9 +27,11 @@ import henry from "./company/henrylogo.jpeg"
 import god from "./god.png";
 import rickandmorty from "./RickandMorty.png"
 import pokemon from "./pokemon.png"
+import omniprice from "./omniprice.png"
 
 export {
   logo2,
+  linkedin,
   github,
   menu,
   close,
@@ -50,7 +52,7 @@ export {
   pokemon,
   god,
   henry,
-  morfeo,
   alice,
-  rickandmorty
+  rickandmorty,
+  omniprice
 };

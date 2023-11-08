@@ -5,6 +5,7 @@ import {styles} from '../styles'
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { github, linkedin } from '../assets';
 
 
 const Contact = () => {
@@ -69,6 +70,28 @@ const Contact = () => {
       >
         <p className={styles.sectionSubColored}>Get in touch</p>
         <h3 className={styles.sectionHeadColored}>Contact.</h3>
+        <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+            <div
+              onClick={() => window.open("https://github.com/LucianoDesign/", "_blank")}
+              className="black-gradient mr-2 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+            <div
+              onClick={() => window.open("www.linkedin.com/in/luciano-design", "_blank")}
+              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={linkedin}
+                alt="github"
+                className="w-1/2 h-1/2 object-contain"
+              />
+            </div>
+          </div>
 
         <form 
         ref={formRef}

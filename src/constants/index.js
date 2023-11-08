@@ -1,6 +1,7 @@
 import {
     javascript,
     typescript,
+    omniprice,
     html,
     css,
     reactjs,
@@ -250,9 +251,31 @@ import {
           name: "tailwind",
           color: "pink-text-gradient",
         },
+        
       ],
       image: god,
       source_code_link: "https://github.com/quirox93/final-project-client",
+    },
+    {
+      name: "Omniprice",
+      link: "https://omniprice.vercel.app/",
+      description:
+      "Omniprice is a revolutionary price tracking platform focused on simplicity and savings. Users can effortlessly track product prices on Amazon by entering the product link. Our intuitive interface allows users to receive instant email notifications whenever the price drops or discounts are available.",      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "mongoDB",
+          color: "green-text-gradient",
+        },
+        {
+          name: "typescript",
+          color: "violet-text-gradient"
+        }
+      ],
+      image: omniprice,
+      source_code_link: "https://github.com/LucianoDesign/Omniprice",
     },
   ];
   
