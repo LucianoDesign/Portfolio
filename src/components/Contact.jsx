@@ -82,7 +82,7 @@ const Contact = () => {
               />
             </div>
             <div
-              onClick={() => window.open("www.linkedin.com/in/luciano-design", "_blank")}
+              onClick={() => window.open("https://www.linkedin.com/in/luciano-design", "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img
