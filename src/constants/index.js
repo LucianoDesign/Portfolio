@@ -260,7 +260,7 @@ import {
       name: "Omniprice",
       link: "https://omniprice.vercel.app/",
       description:
-      "Omniprice is a revolutionary price tracking platform focused on simplicity and savings. Users can effortlessly track product prices on Amazon by entering the product link. Our intuitive interface allows users to receive instant email notifications whenever the price drops or discounts are available.",      tags: [
+      "Omniprice is a revolutionary price tracking platform focused on simplicity and savings. Users can effortlessly track product prices on Mercado Libre by entering the product link. Our intuitive interface allows users to receive instant email notifications whenever the price drops or discounts are available.",      tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
