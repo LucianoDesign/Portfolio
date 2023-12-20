@@ -23,6 +23,7 @@ import postgreSQL from "./tech/postgreSQL.png"
 
 // Company
 import henry from "./company/henrylogo.jpeg"
+import fisiom from "./company/fisiomlogo.svg"
 // Works
 import god from "./god.png";
 import rickandmorty from "./RickandMorty.png"
@@ -54,5 +55,6 @@ export {
   henry,
   alice,
   rickandmorty,
-  omniprice
+  omniprice,
+  fisiom
 };
