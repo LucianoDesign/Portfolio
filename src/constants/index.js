@@ -19,6 +19,8 @@ import {
   god,
   threejs,
   next,
+  mbtek,
+  mbtek_landing,
 } from "../assets";
 
 export const navLinks = [
@@ -30,7 +32,7 @@ export const navLinks = [
     id: "work",
     title: "Work",
   },
- {
+  {
     id: "projects",
     title: "Projects",
   },
@@ -101,37 +103,6 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Integration Proyect",
-    company_name: "Henry",
-    icon: henry,
-    iconBg: "#FFFF00",
-    date: "April 2023 - June 2023",
-    points: [
-      "Developing my first application in React.",
-      "Implementing class and functional components.",
-      "Using Redux for managing global state.",
-      "Creating a server in Express and a SQL database in PostgreSQL.",
-    ],
-  },
-  {
-    title: "Full Stack Individual Proyect",
-    company_name: "Henry",
-    icon: henry,
-    iconBg: "#FFFF00",
-    date: "June 2023 - August 2023",
-    points: [
-      "Development of a single page app using React, Redux, Node, Express, and Sequelize.",
-      "Consistent design across different routes and a good user experience (UX).",
-      "Combined filters and sorting functionality.",
-      "Controlled form with validations.",
-      "Handling of Redux states.",
-      "Pagination combined with filters and a search bar.",
-      "Effective error handling.",
-      "Normalized database with model validations and constraints.",
-      "Unit testing of routes.",
-    ],
-  },
-  {
     title: "Full Stack Group Proyect",
     company_name: "Henry",
     icon: henry,
@@ -168,12 +139,25 @@ const experiences = [
     company_name: "Fisiom Fulness",
     icon: fisiom,
     iconBg: "#ffffff",
-    date: "November 2023 - Present",
+    date: "November 2023 - March 2024",
     points: [
       "Lead the front-end team using Scrum methodology, ensuring efficient collaboration.",
       "Implemented a modern design overhaul for improved aesthetics and user experience.",
       "Successfully migrated a React.js app to Next.js, enhancing performance and scalability.",
       "Propose ideas to enhance features and processes, fostering continuous improvement.",
+    ],
+  },
+  {
+    title: "Full Stack Developer",
+    company_name: "MB-Tek",
+    icon: mbtek,
+    iconBg: "#ffffff",
+    date: "January 2024 - Present",
+    points: [
+      "Customization of the storefront using Shopify CLI for themes.",
+      "Maintenance and addition of functionalities to the Shopify site for customer tracking through forms, chat, etc.",
+      "I perform marketing automations using webhooks and tools like Zapier, Make, and HubSpot CRM.",
+      "I create or update landing pages to generate new leads.",
     ],
   },
 ];
@@ -206,27 +190,6 @@ const testimonials = [
 ];
 
 const projects = [
-  {
-    name: "Rick and Morty App",
-    description:
-      "A Single Page Application that allows the user to find any character by ID or at random from the Rick and Morty show. You can select and save them as favorites.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "postgreSQL",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: rickandmorty,
-    source_code_link: "https://github.com/LucianoDesign/RickAndMorty.TI",
-  },
   {
     name: "Pokewave",
     link: "https://pi-pokemon-black.vercel.app/",
@@ -292,6 +255,28 @@ const projects = [
     ],
     image: omniprice,
     source_code_link: "https://github.com/LucianoDesign/Omniprice",
+  },
+  {
+    name: "Mb-tek landing page",
+    link: "https://www.mbtek.com/pages/15-minute-call",
+    description:
+      "A simple landing page for capturing leads, connected with HubSpot CRM, featuring a form submission section that triggers an automation of a marketing process.",
+    tags: [
+      {
+        name: "Javascript",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: mbtek_landing,
+    source_code_link: "https://github.com/LucianoDesign/mbtek-landing",
   },
 ];
 

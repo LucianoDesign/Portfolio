@@ -19,7 +19,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-black text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm an aspiring full-stack developer with a strong foundation in JavaScript and expertise in frameworks like React and Node.js. While I'm still learning TypeScript, I have a solid grasp of SQL and MongoDB. I'm passionate about collaborating closely with clients to create efficient, scalable, and user-friendly solutions that tackle real-world problems. I'm a quick learner and enthusiastic about bringing innovative ideas to life. Let's work together to transform your concepts into reality!
+I'm a Full Stack Web developer with expertise in frameworks like Next.js and Node.js. My preferred language is JavaScript, but I also have some knowledge of Python. For relational databases, I use PostgreSQL or MySQL, and for non-relational databases, I utilize MongoDB. I am a quick learner, passionate about exploring new technologies and solving real-world problems. Let's connect to discuss our next project! 🚀
       </motion.p>
       <Tech />
     </>
